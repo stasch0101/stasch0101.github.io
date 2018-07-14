@@ -1,0 +1,515 @@
+ 
+
+/*  ========  Contact =========  */
+
+
+
+ .boldC {
+
+	   font-weight:bold;
+	    border: 0px groove #999999;
+	    text-decoration: none;
+	   /* font-size:12pt;*/
+	    color: #000000;
+
+	}
+
+#submitButton{
+
+    height: 38px;
+	background: #797ad8 ;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+
+
+
+
+}
+
+
+
+
+/*  ========  Contact ========= 
+
+
+   ==================  */
+
+body{
+
+ 	font:15px Arial ,Helvetica,sans-serif;/**/
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+
+	
+
+}
+
+
+
+
+
+/*global*/
+.container{
+    color :#35424a;
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+
+}
+ul{
+	margin: 0;
+	padding: 0;
+
+}
+.button_1{
+	height: 38px;
+	background: #797ad8 ;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+
+
+/*header*/
+header{
+	background: #e5f9ff;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #797ad8 3px solid; 
+
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+
+
+}
+
+ 
+header img{
+	max-width: 60px;
+	float: left;
+	display: inline;
+	padding: 0 50px 0   -1px;
+    border-radius:50%;
+
+}
+
+
+
+header #branding h1{
+	margin: 0;
+    float: left;
+	padding: 0 20px 0   20px;
+}
+header #branding{
+	float: left;
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+	 
+}
+
+
+
+    header    a{
+	color: #35424a;
+	font-weight: bold;
+
+}
+
+
+ .highlight , header .current a{
+	color: #797ad8;
+	font-weight: bold;
+
+}
+
+header a:hover{
+	color:#cccccc;
+	font-weight: bold;
+}
+/*showcase*/
+
+#showcase{
+	min-height: 450px;
+	background: url('../img/samalet.jpg') no-repeat 0 -1px;
+	text-align: center;
+	background-position:center ;
+	color: #ffffff;
+	 
+}
+#showcase h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+	text-shadow:text-shadow: 22px 22px #e3f7f7;
+}
+#showcase p{
+	
+	font-size: 20px;
+}
+/*newsletter*/
+#newsletter{
+	padding: 15px;
+	color: #ffffff;
+	background:#35424a; 
+}
+#newsletter h1{
+	float: left;
+}
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter input[type = "email"]{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+/*boxes*/
+.boxes{
+	margin-top: 20px;
+}
+
+.boxes .box{
+	float: left;
+	text-align: center;
+
+	width: 25%; 
+	padding: 5px;
+}
+
+ 
+.boxes .box img{
+	 
+	max-width: 270px;
+	 
+}
+
+ 
+
+/*aboutUs */
+.boxes .box1{
+	float: left;
+	text-align: center;
+	width: 10%;
+	padding: 15px;
+}
+
+.boxes .box1 img{
+	max-width: 90px;
+	 
+}
+/*  ---- footer ------ */
+
+ 
+
+footer{
+	padding:  10px;
+	margin-top:  0px;
+	/*padding-bottom:  0px;
+	padding-left : 0px; */
+	color: #ffffff;
+	background-color: #797ad8;
+	/*text-align: center;*/
+	 
+}
+footer li  {
+	
+	  float: left;
+	 display: inline;
+	 padding: 0 3px 0     0px;
+     
+	
+}
+footer   img{
+	
+	 max-width:  40px;
+     border-radius:20%;
+	
+}
+
+footer #container {
+ 
+	 width: 100%;
+	 overflow: hidden;
+	 
+ }
+ 
+
+ 
+ /*
+ footer #R  {
+	  max-width: 800px;
+	 float: right;
+	width: 35%;
+		 
+}
+
+
+ footer  #L  p {
+	  max-width: 800px;
+	 float: left;
+	 width: 35%;
+	 top:  10px; 
+		  
+}
+
+*/
+
+ footer    p {
+
+ 	padding: 10px;
+	margin-top:  10px;
+	padding-bottom:  :  0px;
+	padding-left : 10px;
+
+	  max-width: 800px;
+	 float: left;
+	 width: 45%;
+	 top:  10px; 
+		  
+}
+
+
+  footer  f2  {
+ 
+     padding-bottom:  40px;
+	 padding-left :  53px;
+	 color: #999999;
+ }
+	
+	footer	 .bold_ {
+
+	   font-weight:bold;
+	    border: 0px groove #999999;
+	    text-decoration: none;
+	   /* font-size:12pt;*/
+	    color: #ffffff;
+
+	}
+
+footer	.txt {
+
+		padding:10px;
+        text-shadow: 0.1em 0.1em #35424a  ;
+		padding-top:20px;
+		padding-left : 40px;
+		 width: 80%;
+		color: #ffffcc;
+		/*background:#797ad8; */
+	}
+
+.sts {
+    padding-left : 60px;
+   padding-top:  0px; 
+    margin-top:   0px;
+}
+
+
+/*  ---------- */
+
+
+
+
+
+@media (max-width: 800px){
+
+
+
+	header #branding,
+	/* header nav,
+	 header nav li,*/
+	#newsletter h1,
+	#newsletter form,
+	.boxes .box1,
+	.boxes .box{
+		float: none;
+		text-align: center;
+		 max-width: 80%;
+		 min-width: 530px;
+		   position:center ;
+	}
+	
+	.boxes .box img{
+	 max-width:530px;
+	  
+}
+
+	header {
+		padding-bottom: 20px;
+	}
+	#showcase h1{
+		margin-top: 40px;
+	}
+	#newsletter button{
+		display: block;
+		width: 100%;
+		margin-top: 5px;
+	}
+	#newsletter form input[type="email"]{
+		width: 100%;
+		margin-top: 5px;
+	}
+	
+	 #content{
+ 
+       /*position: fixed;  */
+
+	 }
+
+.off2{
+
+    display: none;	
+}
+
+}
+
+
+@media (max-width: 550px){
+
+
+
+	header #branding,
+ 
+	 
+	#newsletter h1,
+	#newsletter form,
+	.boxes .box1,
+	.boxes .box{
+		float: none;
+		text-align: center;
+		 max-width: 70%;
+		 min-width: 330px;
+		 position:center ;
+	}
+	
+	.boxes .box img{
+	 max-width:400px;
+	  
+}
+
+	header {
+		padding-bottom: 20px;
+	}
+	#showcase h1{
+		margin-top: 40px;
+	}
+	#newsletter button{
+		display: block;
+		width: 100%;
+		margin-top: 5px;
+	}
+	#newsletter form input[type="email"]{
+		width: 100%;
+		margin-top: 5px;
+	}
+	
+	
+
+.off{
+
+    display: none;	
+}
+/* -----------------  */
+
+  footer  f2  {
+ 
+     padding-bottom:  40px;
+	 padding-left :  53px;
+	 color: #999999;
+ }
+	
+	footer	 .bold_ {
+
+	   font-weight:bold;
+	    border: 0px groove #999999;
+	    text-decoration: none;
+	   /* font-size:12pt;*/
+	    color: #ffffff;
+
+	}
+
+    
+
+
+footer	.txt {
+          min-width: 330px;
+		padding:10px;
+         font-size: 11px;
+		padding-top:20px;
+
+		padding-left : 10px;
+		 width: 100%;
+		color: #ffffcc;
+		/*background:#797ad8; */
+	}
+
+.sts {
+    padding-left : 10px;
+    font-size: 11px;
+   padding-top:  0px; 
+    margin-top:   0px;
+}
+
+
+
+/*-----------*/
+
+}
+
+
+/*-----*/
+.overlay{
+    		position: absolute;
+    		bottom: 0;
+    		left: 0;
+    		right: 0;
+    		background-color: rgba(255,255,255,0.4);
+    		overflow: hidden;
+    		width: 0;
+    		height: 100%;
+    		transition: 0.6s ;
+    	}
+
+		.card:hover .overlay{
+			width: 100%;
+		}
+		.text{
+			color: #000000;
+			 font-weight:bold; 
+			font-size: 18px;
+			text-shadow: 0.1em 0.1em #ffffff  ;
+
+			position: absolute;
+			top: 45%;
+			left: 40%;
+			transform: translate(-50%,-50%);
+			-ms-transform: translate(-50%,-50%);
+			white-space:nowrap;
+		}
+
+		 
+		.card-img-top   {
+		
+		  max-height : 260px;
+		   
+		}
+		 
+
+/* ----*/
